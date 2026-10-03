@@ -175,3 +175,23 @@ function cube(num) {
 console.log(cube(2));
 console.log(cube(3));
 console.log(cube(5));
+
+
+
+
+//               15. Higher-Order Functions (HOF) -
+//               A Higher-Order Function is a function that takes another function as 
+//               an argument OR returns a function.
+
+
+// Example :
+
+function sayHello() {
+    console.log("Hello");
+}
+
+function myFunction(action) {
+    action();
+}
+
+myFunction(sayHello);
